@@ -1,0 +1,212 @@
+.container {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    background-color: #007765;
+    position: fixed;
+    width: 100%;
+}
+
+.logo-menu {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    justify-content: space-between; /* Равномерное распределение между элементами */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    width: 184px;
+    height: 45px;
+}
+
+.menu {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.menu_link {
+    display: flex; /* Выравниваем элементы меню в ряд */
+    list-style-type: none; /* Убираем маркеры списка */
+    margin: 0;
+}
+
+.menu_item {
+    padding: 10px;
+}
+
+.promo {
+    background-image: url("../img/bg/bg_first.png");
+    height: 403px;
+    .promo_header {
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-top: 160px;
+        margin: 0;
+    }
+}
+
+.problem{
+    background-color: #eee;
+    .problem_header {
+        padding-top: 48px;
+        .problem_header_desc {
+            color: #007765;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 0px;
+        }
+    }
+    .problem_content {
+        width: 1100px;
+        color: #000;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 16px;
+        padding-bottom: 92px;
+    }
+}
+
+.quote {
+    background-image: url("../img/bg/bg_second.png");
+    height: 483px;
+    .quote_content{
+        width: 893px;
+        margin: auto;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 48px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: normal;
+        padding-top: 128px;
+    }
+}
+
+.pied_piper_coin {
+    margin-top: 48px;
+    margin-bottom: 92px;
+    .coin_header{
+        color: #007765;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .coin_logo{
+        float: left;
+        padding-right: 48px;
+    }
+    .coin_desc{
+        color: #000;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .coin_content {
+        margin-top: 40px;
+        color: #000;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.team {
+    background-color: #eee;
+    .team_header{
+        padding-top: 58px;
+        color: #007765;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .team_people{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 112px;
+        .team_people_item {
+            width: 30%;
+            text-align: center;
+            margin-bottom: 70px;
+            .people_photo{
+                width: 168px;
+                height: 168px; 
+            }
+            .people_name{
+                padding-top: 12px;
+                color: #007765;
+                font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .people_post{
+                color: #000;
+                font-family: Roboto;
+                font-size: 18px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
+}
+
+.footer{
+    background: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .footer_content{
+        width: 540px;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
